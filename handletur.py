@@ -1,0 +1,11 @@
+print("Hei! Velkommen til IFI-butikken.")
+broed = int(input("Hvor mange broed vil du ha?: "))
+print(broed)
+melk = int(input("Hvor mange melk vil du ha?: "))
+print(melk)
+ost = int(input("Hvor mange ost vil du ha?: "))
+print(ost)
+yoghurt = int(input("Hvor mange yoghurt vil du ha?: "))
+print(yoghurt)
+summen = broed * 20 + melk * 15 + ost * 40 + yoghurt * 12
+print("Du skal betale: ", summen, "kr.")
